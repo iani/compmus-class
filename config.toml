@@ -1,6 +1,7 @@
 # baseURL = "/"
 # deploying on github
 baseURL = "https://iani.github.io/compmus-class" # 1
+relativeURLS = true
 # basURL = "/" # 1
 publishDir = "docs" # 2
 languageCode = "en-US"
