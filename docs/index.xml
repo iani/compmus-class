@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Αρχή on Μουσική Πληροφορική</title>
+    <link>/</link>
+    <description>Recent content in Αρχή on Μουσική Πληροφορική</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 05 Dec 2018 15:52:56 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Αντικείμενο</title>
+      <link>/intro/subject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/intro/subject/</guid>
+      <description>Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος. Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του contents. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του contents κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown.
+To ζητούμενο path που θα μπεί το αρχείο είναι &amp;lt;hugo-site-root&amp;gt;/static/images/&amp;lt;filename.png&amp;gt;.
+
+  Figure 1: This is the caption actually and it is: Org Logo   Αν παραλείψουμε το /images/ από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο: &amp;lt;hugo-site-root&amp;gt;/static/&amp;lt;filename.</description>
+    </item>
+    
+    <item>
+      <title>Εργαλεία</title>
+      <link>/intro/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/intro/tools/</guid>
+      <description>This is chapter 2!
+There should be an image following here:
+ </description>
+    </item>
+    
+  </channel>
+</rss>

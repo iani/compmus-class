@@ -1,9 +1,9 @@
 +++
-title = "home sweet home"
+title = "Αρχή"
 author = ["IOANNIS ZANNOS"]
-lastmod = 2018-12-05T06:29:40+02:00
+lastmod = 2018-12-05T15:52:56+02:00
 draft = false
 weight = 0
 +++
 
-Index. !
+Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό "Τέχνες και Τεχνολογίες του Ήχου".

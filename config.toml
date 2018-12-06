@@ -1,17 +1,33 @@
-baseURL = "/"
+# baseURL = "/"
+# deploying on github
+basURL = "https://iani.github.io/compmus-class" # 1
+publishDir = "docs" # 2
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "OX-hugo rules"
+
+
+title = "Μουσική Πληροφορική"
 theme = "hugo-theme-learn"
 # themesdir = "../.."
-metaDataFormat = "toml"
+# metaDataFormat = "toml" # THE PREVIOUS IS NO LONGER NEEDED
+# changing ox-hugo export to yaml via:
+# (defcustom org-hugo-front-matter-format "toml"
+#   "Format used to front matter.
+# This variable can be set to either \"toml\" or \"yaml\"."
+#   :group 'org-export-hugo
+#   :type '(choice
+#           (const :tag "TOML" "toml")
+#           (const :tag "YAML" "yaml")))
+# Need therefore to set org-hugo-front-matter-format to "yaml"
+# Note: "yaml" with small letters - but NOT "YAML". 
+
 defaultContentLanguageInSubdir= true
 
 [params]
 #  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "Fantastique"
-  author = "Iannis Zannos"
+  description = "Μουσική Πληροφορική"
+  author = "Γιάννης Ζάννος"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -21,9 +37,9 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Phantastisch"
+title = "Μουσική Πληροφορική"
 weight = 1
-languageName = "English"
+languageName = "Ελληνικά"
 
 # [[Languages.en.menu.shortcuts]]
 # name = "<i class='fab fa-fw fa-github'></i> Github repo"

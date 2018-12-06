@@ -1,0 +1,19 @@
+Testing ox-hugo stuff.
+ 5 Dec 2018 09:31
+
+https://ox-hugo.scripter.co/doc/auto-export-on-saving/ Auto-export on Saving
+
+#+BEGIN_SRC emacs-lisp
+(require 'ox-hugo-auto-export)
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+  (setq org-hugo-auto-export-on-save t)
+#+END_SRC
+
+#+RESULTS:
+: t
+
+
+But must be local. See: https://www.gnu.org/software/emacs/manual/html_node/elisp/Creating-Buffer_002dLocal.html#Creating-Buffer_002dLocal
+
