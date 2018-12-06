@@ -1,7 +1,7 @@
 [
 {
 	"uri": "https://iani.github.io/compmus-class/intro/",
-	"title": "Εισαγωγή",
+	"title": "Εισαγωγή - Testing",
 	"tags": [],
 	"description": "",
 	"content": " Αντικείμενο Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος. Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του contents. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του contents κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown.\nTo ζητούμενο path που θα μπεί το αρχείο είναι \u0026lt;hugo-site-root\u0026gt;/static/images/\u0026lt;filename.png\u0026gt;.\n\n  Figure 1: This is the caption actually and it is: Org Logo   Αν παραλείψουμε το /images/ από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο: \u0026lt;hugo-site-root\u0026gt;/static/\u0026lt;filename.png\u0026gt;. Πχ:\n\n  Figure 2: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο `/static/`.   Το path που βάλαμε για την παραπάνω εικόνα ήταν απλά: /PEARLLITHIC.png.\nΕδώ συνεχίζουμε με το κείμενο.\nΕργαλεία This is chapter 2!\nThere should be an image following here:\n "
@@ -39,5 +39,5 @@
 	"title": "Αρχή",
 	"tags": [],
 	"description": "",
-	"content": "Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo;.\n"
+	"content": "Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo;.\nΑκόμη υπό δοκιμή.\n"
 }]

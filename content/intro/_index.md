@@ -1,10 +1,10 @@
-+++
-title = "Εισαγωγή"
-author = ["IOANNIS ZANNOS"]
-lastmod = 2018-12-05T15:52:56+02:00
-draft = false
-weight = 1
-+++
+---
+title: "Εισαγωγή - Testing"
+author: ["IOANNIS ZANNOS"]
+lastmod: 2018-12-06T15:56:20+02:00
+draft: false
+weight: 1
+---
 
 ## Αντικείμενο {#αντικείμενο}
 
@@ -12,13 +12,13 @@ weight = 1
 
 To ζητούμενο path που θα μπεί το αρχείο είναι `<hugo-site-root>/static/images/<filename.png>`.
 
-<a id="orge9e8877"></a>
+<a id="org1d5eeda"></a>
 
 {{< figure src="/images/org-mode-unicorn-logo.png" caption="Figure 1: This is the caption actually and it is: Org Logo" >}}
 
 Αν παραλείψουμε το `/images/` από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο:  `<hugo-site-root>/static/<filename.png>`. Πχ:
 
-<a id="orgd1af83f"></a>
+<a id="org98e6927"></a>
 
 {{< figure src="/PEARLLITHIC.png" caption="Figure 2: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο `/static/`." >}}
 
