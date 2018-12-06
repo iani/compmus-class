@@ -1,41 +1,41 @@
 [
 {
-	"uri": "/intro/",
+	"uri": "https://iani.github.io/compmus-class/intro/",
 	"title": "Εισαγωγή",
 	"tags": [],
 	"description": "",
 	"content": " Αντικείμενο Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος. Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του contents. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του contents κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown.\nTo ζητούμενο path που θα μπεί το αρχείο είναι \u0026lt;hugo-site-root\u0026gt;/static/images/\u0026lt;filename.png\u0026gt;.\n\n  Figure 1: This is the caption actually and it is: Org Logo   Αν παραλείψουμε το /images/ από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο: \u0026lt;hugo-site-root\u0026gt;/static/\u0026lt;filename.png\u0026gt;. Πχ:\n\n  Figure 2: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο `/static/`.   Το path που βάλαμε για την παραπάνω εικόνα ήταν απλά: /PEARLLITHIC.png.\nΕδώ συνεχίζουμε με το κείμενο.\nΕργαλεία This is chapter 2!\nThere should be an image following here:\n "
 },
 {
-	"uri": "/intro/subject/",
+	"uri": "https://iani.github.io/compmus-class/intro/subject/",
 	"title": "Αντικείμενο",
 	"tags": [],
 	"description": "",
 	"content": "Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος. Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του contents. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του contents κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown.\nTo ζητούμενο path που θα μπεί το αρχείο είναι \u0026lt;hugo-site-root\u0026gt;/static/images/\u0026lt;filename.png\u0026gt;.\n\n  Figure 1: This is the caption actually and it is: Org Logo   Αν παραλείψουμε το /images/ από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο: \u0026lt;hugo-site-root\u0026gt;/static/\u0026lt;filename.png\u0026gt;. Πχ:\n\n  Figure 2: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο `/static/`.   Το path που βάλαμε για την παραπάνω εικόνα ήταν απλά: /PEARLLITHIC.png.\nΕδώ συνεχίζουμε με το κείμενο.\n"
 },
 {
-	"uri": "/intro/tools/",
+	"uri": "https://iani.github.io/compmus-class/intro/tools/",
 	"title": "Εργαλεία",
 	"tags": [],
 	"description": "",
 	"content": "This is chapter 2!\nThere should be an image following here:\n "
 },
 {
-	"uri": "/categories/",
+	"uri": "https://iani.github.io/compmus-class/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tags/",
+	"uri": "https://iani.github.io/compmus-class/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/",
+	"uri": "https://iani.github.io/compmus-class/",
 	"title": "Αρχή",
 	"tags": [],
 	"description": "",
