@@ -1,10 +1,13 @@
 # baseURL = "/"
 # deploying on github
-baseURL = "https://iani.github.io/compmus-class" # 1
+baseURL = "https://iani.github.io/compmus-class"
+# alternative for other base urls, as command to compile with custom url:
+# hugo -b "https://iani.github.io/compmus-class"
+# see: -b, --baseURL string         hostname (and path) to the root, e.g. http://spf13.com/
+# at: https://gohugo.io/commands/hugo/
 # relativeURLS = true
-canonifyurls = true
-# basURL = "/" # 1
-publishDir = "docs" # 2
+canonifyurls = true # This fixes urls.  Without it, links to style or pages are broken.
+publishDir = "docs" # render to docs dir, which is used by github pages
 languageCode = "en-US"
 defaultContentLanguage = "en"
 

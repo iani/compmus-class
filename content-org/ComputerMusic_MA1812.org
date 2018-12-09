@@ -1,4 +1,4 @@
-#+COLUMNS: %40ITEM %20EXPORT_FILE_NAME %20EXPORT_HUGO_SECTION
+#+COLUMNS: %40ITEM %20EXPORT_HUGO_SECTION %20EXPORT_FILE_NAME
 
 # stars * do not work in column view: #+COLUMNS: %40ITEM %20EXPORT_FILE_NAME %20EXPORT_HUGO_SECTION %20EXPORT_HUGO_SECTION*
 
@@ -11,81 +11,39 @@
 #+hugo_weight: auto
 #+hugo_auto_set_lastmod: t
 
-* Αρχή
+* Αρχική
   :PROPERTIES:
   :EXPORT_FILE_NAME: _index
   :EXPORT_HUGO_WEIGHT: 0
   :END:
 
-Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό "Τέχνες και Τεχνολογίες του Ήχου".
+/Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό Πρόγραμμα Σπουδών "Τέχνες και Τεχνολογίες του Ήχου" της Σχολής Μουσικών Σπουδών και Οπτικοακουστικών Τεχνών του Ιονίον Πανεπιστημίου./
 
-Ακόμη υπό δοκιμή.Ακόμη υπό δοκιμή. Ακόμη υπό δοκιμή. Ακόμη υπό δοκιμή.Ακόμη υπό δοκιμή.
+Δείτε στην [[./intro][εισαγωγή]] τον [[./intro/subject][ορισμό της Μουσικής Πληροφορικής]] και το [[./intro/content][περιεχόμενο του μαθήματος]], 
 
-Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό "Τέχνες και Τεχνολογίες του Ήχου".
-
-Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό "Τέχνες και Τεχνολογίες του Ήχου".
-
-Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό "Τέχνες και Τεχνολογίες του Ήχου".
-
-Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό "Τέχνες και Τεχνολογίες του Ήχου".
-
-* Εισαγωγή - Testing
+* Εισαγωγή
   :PROPERTIES:
-  :EXPORT_FILE_NAME: _index
   :EXPORT_HUGO_SECTION: intro
-  :EXPORT_HUGO_WEIGHT: 1
+  :EXPORT_FILE_NAME: _index
+  :EXPORT_HUGO_WEIGHT: 3
   :END:
-** Αντικείμενο
+
+
+** Αντικείμενο και εφαρμογές
    :PROPERTIES:
+   :EXPORT_HUGO_SECTION: intro
    :EXPORT_FILE_NAME: subject
-   :EXPORT_HUGO_SECTION: intro
-   :EXPORT_HUGO_WEIGHT: 2
+   :EXPORT_HUGO_WEIGHT: 4
    :END:
 
-Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος.  Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του =contents=. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του =contents= κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown. 
+Μουσική Πληροφορική είναι το πεδίο έρευνας που ασχολείται με τις εφαρμογές της Πληροφορικής στην Μουσική.  Η Μουσική Πληροφορική βρίσκει ερευνητικές εφαρμογές στην μουσική ανάλυση, την σημειογραφία, την ψυχοακουστική και ακουστική, και δημιουργικές εφαρμοτές στην μουσική σύνθεση, την εκτέλεση και τον αυτοσχεδιασμό, τον ηχητικός σχεδιασμό, καθώς και όπου επεισέρχεται ο ήχος σε άλλες μορφές τέχνης όπως στον κινηματογράφο την βινεο-τέχνη και τις  εγκαταστάσεις. 
 
-To ζητούμενο path που θα μπεί το αρχείο είναι =<hugo-site-root>/static/images/<filename.png>=.
-
-#+caption: This is the caption actually and it is: Org Logo
-#+name: img__org_logo1
-[[/images/org-mode-unicorn-logo.png]]
-
-Αν παραλείψουμε το =/images/= από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο:  =<hugo-site-root>/static/<filename.png>=. Πχ:
-
-#+caption: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο =/static/=.
-#+name: img__org_logo2
-[[/PEARLLITHIC.png]]
-
-Το path που βάλαμε για την παραπάνω εικόνα ήταν απλά: =/PEARLLITHIC.png=.
-
-Εδώ συνεχίζουμε με το κείμενο.
-
-** Εργαλεία
+** Περιεχόμενο του μαθήματος
    :PROPERTIES:
-   :EXPORT_FILE_NAME: tools
    :EXPORT_HUGO_SECTION: intro
-   :EXPORT_HUGO_WEIGHT: 3
-   :END:
-
- This is chapter 2!
-
-There should be an image following here:
-
-[[/chapter.jpg]]
-
-* Εβδομάδα 1
-  :PROPERTIES:
-  :EXPORT_HUGO_WEIGHT: 4
-  :END:
-
-** Διδασκαλία
-   :PROPERTIES:
+   :EXPORT_FILE_NAME: content
    :EXPORT_HUGO_WEIGHT: 5
    :END:
 
-** Εργασίες
-   :PROPERTIES:
-   :EXPORT_HUGO_WEIGHT: 6
-   :END:
 
 

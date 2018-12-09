@@ -1,0 +1,57 @@
+* COMMENT Εισαγωγή - Testing
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: _index
+  :EXPORT_HUGO_SECTION: intro
+  :EXPORT_HUGO_WEIGHT: 6
+  :END:
+** COMMENT Αντικείμενο
+   :PROPERTIES:
+   :EXPORT_HUGO_WEIGHT: 7
+   :END:
+Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος.  Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του =contents=. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του =contents= κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown. 
+
+To ζητούμενο path που θα μπεί το αρχείο είναι =<hugo-site-root>/static/images/<filename.png>=.
+
+#+caption: This is the caption actually and it is: Org Logo
+#+name: img__org_logo1
+[[/images/org-mode-unicorn-logo.png]]
+
+Αν παραλείψουμε το =/images/= από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο:  =<hugo-site-root>/static/<filename.png>=. Πχ:
+
+#+caption: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο =/static/=.
+#+name: img__org_logo2
+[[/PEARLLITHIC.png]]
+
+Το path που βάλαμε για την παραπάνω εικόνα ήταν απλά: =/PEARLLITHIC.png=.
+
+Εδώ συνεχίζουμε με το κείμενο.
+
+** Εργαλεία
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: tools
+   :EXPORT_HUGO_SECTION: intro
+   :EXPORT_HUGO_WEIGHT: 8
+   :END:
+
+ This is chapter 2!
+
+There should be an image following here:
+
+[[/chapter.jpg]]
+
+* COMMENT Εβδομάδα 1
+  :PROPERTIES:
+  :EXPORT_HUGO_WEIGHT: 9
+  :END:
+
+** Διδασκαλία
+   :PROPERTIES:
+   :EXPORT_HUGO_WEIGHT: 10
+   :END:
+
+** Εργασίες
+   :PROPERTIES:
+   :EXPORT_HUGO_WEIGHT: 11
+   :END:
+
+
