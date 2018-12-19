@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Αρχή on Μουσική Πληροφορική</title>
+    <title>Αρχική on Μουσική Πληροφορική</title>
     <link>https://iani.github.io/compmus-class/</link>
-    <description>Recent content in Αρχή on Μουσική Πληροφορική</description>
+    <description>Recent content in Αρχική on Μουσική Πληροφορική</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 06 Dec 2018 15:58:35 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 19 Dec 2018 20:16:23 +0200</lastBuildDate>
     
 	<atom:link href="https://iani.github.io/compmus-class/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Αντικείμενο</title>
+      <title>Αντικείμενο και εφαρμογές</title>
       <link>https://iani.github.io/compmus-class/intro/subject/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://iani.github.io/compmus-class/intro/subject/</guid>
-      <description>Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος. Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του contents. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του contents κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown.
-To ζητούμενο path που θα μπεί το αρχείο είναι &amp;lt;hugo-site-root&amp;gt;/static/images/&amp;lt;filename.png&amp;gt;.
-
-  Figure 1: This is the caption actually and it is: Org Logo   Αν παραλείψουμε το /images/ από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο: &amp;lt;hugo-site-root&amp;gt;/static/&amp;lt;filename.</description>
+      <description>Μουσική Πληροφορική είναι το πεδίο έρευνας που ασχολείται με τις εφαρμογές της Πληροφορικής στην Μουσική. Η Μουσική Πληροφορική βρίσκει ερευνητικές εφαρμογές στην μουσική ανάλυση, την σημειογραφία, την ψυχοακουστική και ακουστική, και δημιουργικές εφαρμοτές στην μουσική σύνθεση, την εκτέλεση και τον αυτοσχεδιασμό, τον ηχητικός σχεδιασμό, καθώς και όπου επεισέρχεται ο ήχος σε άλλες μορφές τέχνης όπως στον κινηματογράφο την βινεο-τέχνη και τις εγκαταστάσεις.
+Το πρακτικό αντικείμενο του μαθήματος είναι: Αντικείμενο: Programming interactive audio and music applications in SuperCollider.</description>
     </item>
     
     <item>
@@ -29,9 +27,29 @@ To ζητούμενο path που θα μπεί το αρχείο είναι &am
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://iani.github.io/compmus-class/intro/tools/</guid>
-      <description>This is chapter 2!
-There should be an image following here:
- </description>
+      <description>Συστήνεται η εξοικείωση με τις εξής τεχνολογίες. Αυτές θα ειχαχθούν διαδοχικά κατα την διάρκεια του εξαμήνου όσο επιτρέπει ο χρόνος.
+ Unix shell (bash, zsh) SuperCollider EMACS Git (see github) gist @ github: https://gist.github.com/iani hangouts etherpad sox  </description>
+    </item>
+    
+    <item>
+      <title>Εισαγωγή: Θεωρητικές Έννοιες</title>
+      <link>https://iani.github.io/compmus-class/intro/content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iani.github.io/compmus-class/intro/content/</guid>
+      <description>Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα. Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.
+Αντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP) Types of programming styles (Paradigms) See: https://www.geeksforgeeks.org/introduction-of-programming-paradigms/
+ Imperative Declarative  Some of the types below can be classified under imperative or declarative:
+ Procedural Logic Object Oriented Functional Other (Subject oriented, aspect oriented, etc.)  Basic concepts Function Arguments Recursion Iteration Closure Function callback Asynchronous programming Scheduling, multitasking, threads Namespace OOP concepts Object Method Message Class Superclass, subclass, meta class Inheritance Polymorphism Encapsulation Introspection - Reflexive programming Identifier Type / Datastructure Variable Directive (?</description>
+    </item>
+    
+    <item>
+      <title>Ιστογραφία</title>
+      <link>https://iani.github.io/compmus-class/intro/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iani.github.io/compmus-class/intro/links/</guid>
+      <description> The Royal Institution, Youtube Channel https://www.youtube.com/user/TheRoyalInstitution/videos?app=desktop  </description>
     </item>
     
   </channel>

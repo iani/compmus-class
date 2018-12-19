@@ -1,24 +1,38 @@
 [
 {
 	"uri": "https://iani.github.io/compmus-class/intro/",
-	"title": "Εισαγωγή - Testing",
+	"title": "Εισαγωγή",
 	"tags": [],
 	"description": "",
-	"content": " Αντικείμενο Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος. Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του contents. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του contents κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown.\nTo ζητούμενο path που θα μπεί το αρχείο είναι \u0026lt;hugo-site-root\u0026gt;/static/images/\u0026lt;filename.png\u0026gt;.\n\n  Figure 1: This is the caption actually and it is: Org Logo   Αν παραλείψουμε το /images/ από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο: \u0026lt;hugo-site-root\u0026gt;/static/\u0026lt;filename.png\u0026gt;. Πχ:\n\n  Figure 2: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο `/static/`.   Το path που βάλαμε για την παραπάνω εικόνα ήταν απλά: /PEARLLITHIC.png.\nΕδώ συνεχίζουμε με το κείμενο.\nΕργαλεία This is chapter 2!\nThere should be an image following here:\n "
+	"content": " Αντικείμενο και εφαρμογές Μουσική Πληροφορική είναι το πεδίο έρευνας που ασχολείται με τις εφαρμογές της Πληροφορικής στην Μουσική. Η Μουσική Πληροφορική βρίσκει ερευνητικές εφαρμογές στην μουσική ανάλυση, την σημειογραφία, την ψυχοακουστική και ακουστική, και δημιουργικές εφαρμοτές στην μουσική σύνθεση, την εκτέλεση και τον αυτοσχεδιασμό, τον ηχητικός σχεδιασμό, καθώς και όπου επεισέρχεται ο ήχος σε άλλες μορφές τέχνης όπως στον κινηματογράφο την βινεο-τέχνη και τις εγκαταστάσεις.\nΤο πρακτικό αντικείμενο του μαθήματος είναι: Αντικείμενο: Programming interactive audio and music applications in SuperCollider. Γύρω από αυτό όμως γινεται και εισαγωγή σε βασικές έννοιες της μουσικής πληροφορικής και του προγραμματισμού. Για παράδειγμα, δείτε το επόμενο κεφάλαιο.\nΕργαλεία Συστήνεται η εξοικείωση με τις εξής τεχνολογίες. Αυτές θα ειχαχθούν διαδοχικά κατα την διάρκεια του εξαμήνου όσο επιτρέπει ο χρόνος.\n Unix shell (bash, zsh) SuperCollider EMACS Git (see github) gist @ github: https://gist.github.com/iani hangouts etherpad sox  Εισαγωγή: Θεωρητικές Έννοιες Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα. Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.\nΑντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP) Types of programming styles (Paradigms) See: https://www.geeksforgeeks.org/introduction-of-programming-paradigms/\n Imperative Declarative  Some of the types below can be classified under imperative or declarative:\n Procedural Logic Object Oriented Functional Other (Subject oriented, aspect oriented, etc.)  Basic concepts  Function\n Arguments\n Recursion\n Iteration\n Closure\n Function callback\n Asynchronous programming\n Scheduling, multitasking, threads\n Namespace\n OOP concepts\n Object\n Method\n Message\n Class\n Superclass, subclass, meta class\n Inheritance\n Polymorphism\n Encapsulation\n  Introspection - Reflexive programming\n Identifier\n Type / Datastructure\n Variable\n Directive (?)\n Compiler\n Interpreter\n Read-Eval-Print-Loop (REPL)\n Sound related\n Signal\n Audio and Control rate signals  Buffer\n Bus\n Unit generator\n Synth Process\n  Music related / advanced\n Stream and Pattern  GUI\n Types of Intrerfaces\n  Some deeper fundamental concepts Human based information approach  Signal\n Sign\n Signifier / Signified\n Linguistics / Cognitive Science\n Semantics / Semotics\n Information ????\n Language\n  Non-Human based information approach  Data based\n Data science\n Big data\n Statistics\n Bayesian reasoning\n  Ιστογραφία  The Royal Institution, Youtube Channel https://www.youtube.com/user/TheRoyalInstitution/videos?app=desktop  "
 },
 {
 	"uri": "https://iani.github.io/compmus-class/intro/subject/",
-	"title": "Αντικείμενο",
+	"title": "Αντικείμενο και εφαρμογές",
 	"tags": [],
 	"description": "",
-	"content": "Εδώ δείχνουμε μια εικόνα που είναι αποθηκευμένη στο standard μέρος. Αυτό το μέρος είναι εκτός του markdown περιεχομενου, δηλαδή εκτός του contents. Αυτό σημαίνει ότι είμαστε ελέυθεροι να σβήνουμε τα περιεχόμενα του contents κάθε φορά πριν μετατρέπουμε το παρόν αρχείο σε markdown.\nTo ζητούμενο path που θα μπεί το αρχείο είναι \u0026lt;hugo-site-root\u0026gt;/static/images/\u0026lt;filename.png\u0026gt;.\n\n  Figure 1: This is the caption actually and it is: Org Logo   Αν παραλείψουμε το /images/ από το path που θα μπεί το αρχείο τότε θα το βρεί το hugo αντίστοιχα στο: \u0026lt;hugo-site-root\u0026gt;/static/\u0026lt;filename.png\u0026gt;. Πχ:\n\n  Figure 2: H εικόνα αυτή βρίσκεται κατευθείαν μέσα στον φάκελο `/static/`.   Το path που βάλαμε για την παραπάνω εικόνα ήταν απλά: /PEARLLITHIC.png.\nΕδώ συνεχίζουμε με το κείμενο.\n"
+	"content": "Μουσική Πληροφορική είναι το πεδίο έρευνας που ασχολείται με τις εφαρμογές της Πληροφορικής στην Μουσική. Η Μουσική Πληροφορική βρίσκει ερευνητικές εφαρμογές στην μουσική ανάλυση, την σημειογραφία, την ψυχοακουστική και ακουστική, και δημιουργικές εφαρμοτές στην μουσική σύνθεση, την εκτέλεση και τον αυτοσχεδιασμό, τον ηχητικός σχεδιασμό, καθώς και όπου επεισέρχεται ο ήχος σε άλλες μορφές τέχνης όπως στον κινηματογράφο την βινεο-τέχνη και τις εγκαταστάσεις.\nΤο πρακτικό αντικείμενο του μαθήματος είναι: Αντικείμενο: Programming interactive audio and music applications in SuperCollider. Γύρω από αυτό όμως γινεται και εισαγωγή σε βασικές έννοιες της μουσικής πληροφορικής και του προγραμματισμού. Για παράδειγμα, δείτε το επόμενο κεφάλαιο.\n"
 },
 {
 	"uri": "https://iani.github.io/compmus-class/intro/tools/",
 	"title": "Εργαλεία",
 	"tags": [],
 	"description": "",
-	"content": "This is chapter 2!\nThere should be an image following here:\n "
+	"content": "Συστήνεται η εξοικείωση με τις εξής τεχνολογίες. Αυτές θα ειχαχθούν διαδοχικά κατα την διάρκεια του εξαμήνου όσο επιτρέπει ο χρόνος.\n Unix shell (bash, zsh) SuperCollider EMACS Git (see github) gist @ github: https://gist.github.com/iani hangouts etherpad sox  "
+},
+{
+	"uri": "https://iani.github.io/compmus-class/intro/content/",
+	"title": "Εισαγωγή: Θεωρητικές Έννοιες",
+	"tags": [],
+	"description": "",
+	"content": " Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα. Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.\nΑντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP) Types of programming styles (Paradigms) See: https://www.geeksforgeeks.org/introduction-of-programming-paradigms/\n Imperative Declarative  Some of the types below can be classified under imperative or declarative:\n Procedural Logic Object Oriented Functional Other (Subject oriented, aspect oriented, etc.)  Basic concepts Function Arguments Recursion Iteration Closure Function callback Asynchronous programming Scheduling, multitasking, threads Namespace OOP concepts Object Method Message Class Superclass, subclass, meta class Inheritance Polymorphism Encapsulation Introspection - Reflexive programming Identifier Type / Datastructure Variable Directive (?) Compiler Interpreter Read-Eval-Print-Loop (REPL) Sound related Signal  Audio and Control rate signals  Buffer Bus Unit generator Synth Process Music related / advanced Stream and Pattern GUI Types of Intrerfaces Some deeper fundamental concepts Human based information approach Signal Sign Signifier / Signified Linguistics / Cognitive Science Semantics / Semotics Information ???? Language Non-Human based information approach Data based Data science Big data Statistics Bayesian reasoning "
+},
+{
+	"uri": "https://iani.github.io/compmus-class/intro/links/",
+	"title": "Ιστογραφία",
+	"tags": [],
+	"description": "",
+	"content": " The Royal Institution, Youtube Channel https://www.youtube.com/user/TheRoyalInstitution/videos?app=desktop  "
 },
 {
 	"uri": "https://iani.github.io/compmus-class/categories/",
@@ -36,8 +50,8 @@
 },
 {
 	"uri": "https://iani.github.io/compmus-class/",
-	"title": "Αρχή",
+	"title": "Αρχική",
 	"tags": [],
 	"description": "",
-	"content": "Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo;.\nΑκόμη υπό δοκιμή.Ακόμη υπό δοκιμή. Ακόμη υπό δοκιμή. Ακόμη υπό δοκιμή.Ακόμη υπό δοκιμή.\nΣημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo;.\nΣημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo;.\nΣημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo;.\nΣημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo;.\n"
+	"content": "Σημειώσεις για το μάθημα της Μουσικής Πληροφορικής στο Μεταπτυχιακό Πρόγραμμα Σπουδών \u0026ldquo;Τέχνες και Τεχνολογίες του Ήχου\u0026rdquo; της Σχολής Μουσικών Σπουδών και Οπτικοακουστικών Τεχνών του Ιονίον Πανεπιστημίου.\nΔείτε στην εισαγωγή τον ορισμό της Μουσικής Πληροφορικής και το περιεχόμενο του μαθήματος,\n"
 }]

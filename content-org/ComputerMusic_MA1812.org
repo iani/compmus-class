@@ -25,7 +25,7 @@
   :PROPERTIES:
   :EXPORT_HUGO_SECTION: intro
   :EXPORT_FILE_NAME: _index
-  :EXPORT_HUGO_WEIGHT: 3
+  :EXPORT_HUGO_WEIGHT: 1
   :END:
 
 
@@ -33,17 +33,322 @@
    :PROPERTIES:
    :EXPORT_HUGO_SECTION: intro
    :EXPORT_FILE_NAME: subject
-   :EXPORT_HUGO_WEIGHT: 4
+   :EXPORT_HUGO_WEIGHT: 2
    :END:
 
 Μουσική Πληροφορική είναι το πεδίο έρευνας που ασχολείται με τις εφαρμογές της Πληροφορικής στην Μουσική.  Η Μουσική Πληροφορική βρίσκει ερευνητικές εφαρμογές στην μουσική ανάλυση, την σημειογραφία, την ψυχοακουστική και ακουστική, και δημιουργικές εφαρμοτές στην μουσική σύνθεση, την εκτέλεση και τον αυτοσχεδιασμό, τον ηχητικός σχεδιασμό, καθώς και όπου επεισέρχεται ο ήχος σε άλλες μορφές τέχνης όπως στον κινηματογράφο την βινεο-τέχνη και τις  εγκαταστάσεις. 
 
-** Περιεχόμενο του μαθήματος
+Το πρακτικό αντικείμενο του μαθήματος είναι: Αντικείμενο: Programming interactive audio and music applications in SuperCollider.  Γύρω από αυτό όμως γινεται και εισαγωγή σε βασικές έννοιες της μουσικής πληροφορικής και του προγραμματισμού.  Για παράδειγμα, δείτε το επόμενο κεφάλαιο. 
+
+** Εργαλεία
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: tools
+   :EXPORT_HUGO_SECTION: intro
+   :EXPORT_HUGO_WEIGHT: 3
+   :END:
+
+Συστήνεται η εξοικείωση με τις εξής τεχνολογίες. Αυτές θα ειχαχθούν διαδοχικά κατα την διάρκεια του εξαμήνου όσο επιτρέπει ο χρόνος.
+
+- Unix shell (bash, zsh)
+- [[https://supercollider.github.io/][SuperCollider]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Intro.html][EMACS]]
+- Git (see github)
+- gist @ github: https://gist.github.com/iani
+- hangouts
+- [[http://etherpad.org/][etherpad]]
+- [[http://sox.sourceforge.net/][sox]]
+
+** Εισαγωγή: Θεωρητικές Έννοιες
    :PROPERTIES:
    :EXPORT_HUGO_SECTION: intro
    :EXPORT_FILE_NAME: content
-   :EXPORT_HUGO_WEIGHT: 5
+   :EXPORT_HUGO_WEIGHT: 4
    :END:
 
+Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα.  Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.
+
+**** Αντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP)
+     :PROPERTIES:
+     :EXPORT_HUGO_WEIGHT: 5
+     :END:
+
+**** Types of programming styles (Paradigms)
+     :PROPERTIES:
+     :EXPORT_HUGO_WEIGHT: 6
+     :END:
+
+See: https://www.geeksforgeeks.org/introduction-of-programming-paradigms/
+
+- Imperative
+- Declarative
+
+Some of the types below can be classified under /imperative/ or /declarative/:
+
+- Procedural
+- Logic
+- Object Oriented
+- Functional
+- Other (Subject oriented, aspect oriented, etc.)
+
+**** Basic concepts
+     :PROPERTIES:
+     :EXPORT_HUGO_WEIGHT: 7
+     :END:
+       
+***** Function
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 8
+      :END:
+
+***** Arguments
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 9
+      :END:
+
+***** Recursion
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 10
+      :END:
+
+***** Iteration
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 11
+      :END:
+
+***** Closure
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 12
+      :END:
+
+***** Function callback
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 13
+      :END:
+
+***** Asynchronous programming
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 14
+      :END:
+
+***** Scheduling, multitasking, threads
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 15
+      :END:
+
+***** Namespace
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 16
+      :END:
+
+***** OOP concepts
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 17
+      :END:
+****** Object
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 18
+       :END:
+
+****** Method
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 19
+       :END:
+
+****** Message
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 20
+       :END:
+
+****** Class
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 21
+       :END:
+
+****** Superclass, subclass, meta class
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 22
+       :END:
+
+****** Inheritance
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 23
+       :END:
+
+****** Polymorphism
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 24
+       :END:
+
+****** Encapsulation
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 25
+       :END:
+
+
+
+***** Introspection - Reflexive programming
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 26
+      :END:
+
+***** Identifier
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 27
+      :END:
+
+***** Type / Datastructure
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 28
+      :END:
+
+***** Variable
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 29
+      :END:
+
+***** Directive (?)
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 30
+      :END:
+
+***** Compiler
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 31
+      :END:
+
+***** Interpreter
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 32
+      :END:
+
+***** Read-Eval-Print-Loop (REPL)
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 33
+      :END:
+
+***** Sound related
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 34
+      :END:
+
+****** Signal
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 35
+       :END:
+
+******* Audio and Control rate signals
+        :PROPERTIES:
+        :EXPORT_HUGO_WEIGHT: 36
+        :END:
+
+****** Buffer
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 37
+       :END:
+
+****** Bus
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 38
+       :END:
+
+****** Unit generator
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 39
+       :END:
+
+****** Synth Process
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 40
+       :END:
+
+***** Music related / advanced
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 41
+      :END:
+
+****** Stream and Pattern
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 42
+       :END:
+
+***** GUI
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 43
+      :END:
+
+***** Types of Intrerfaces
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 44
+      :END:
+
+**** Some deeper fundamental concepts
+     :PROPERTIES:
+     :EXPORT_HUGO_WEIGHT: 45
+     :END:
+
+**** Human based information approach
+     :PROPERTIES:
+     :EXPORT_HUGO_WEIGHT: 46
+     :END:
+***** Signal
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 47
+      :END:
+***** Sign
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 48
+      :END:
+***** Signifier / Signified
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 49
+      :END:
+***** Linguistics / Cognitive Science
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 50
+      :END:
+***** Semantics / Semotics
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 51
+      :END:
+***** Information ???? 
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 52
+      :END:
+***** Language
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 53
+      :END:
+**** Non-Human based information approach
+     :PROPERTIES:
+     :EXPORT_HUGO_WEIGHT: 54
+     :END:
+***** Data based
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 55
+      :END:
+***** Data science
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 56
+      :END:
+***** Big data
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 57
+      :END:
+***** Statistics
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 58
+      :END:
+***** Bayesian reasoning
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 59
+      :END:
+** Ιστογραφία
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: links
+   :EXPORT_HUGO_SECTION: intro
+   :EXPORT_HUGO_WEIGHT: 60
+   :END:
+
+- The Royal Institution, Youtube Channel [[https://www.youtube.com/user/TheRoyalInstitution/videos?app=desktop]]
 
 
