@@ -12,17 +12,17 @@
     <title>Εισαγωγή :: Μουσική Πληροφορική</title>
 
     
-    <link href="https://iani.github.io/compmus-class/css/nucleus.css?1545243442" rel="stylesheet">
-    <link href="https://iani.github.io/compmus-class/css/fontawesome-all.min.css?1545243442" rel="stylesheet">
-    <link href="https://iani.github.io/compmus-class/css/hybrid.css?1545243442" rel="stylesheet">
-    <link href="https://iani.github.io/compmus-class/css/featherlight.min.css?1545243442" rel="stylesheet">
-    <link href="https://iani.github.io/compmus-class/css/perfect-scrollbar.min.css?1545243442" rel="stylesheet">
-    <link href="https://iani.github.io/compmus-class/css/auto-complete.css?1545243442" rel="stylesheet">
-    <link href="https://iani.github.io/compmus-class/css/theme.css?1545243442" rel="stylesheet">
-    <link href="https://iani.github.io/compmus-class/css/hugo-theme.css?1545243442" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/nucleus.css?1545341223" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/fontawesome-all.min.css?1545341223" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/hybrid.css?1545341223" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/featherlight.min.css?1545341223" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/perfect-scrollbar.min.css?1545341223" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/auto-complete.css?1545341223" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/theme.css?1545341223" rel="stylesheet">
+    <link href="https://iani.github.io/compmus-class/css/hugo-theme.css?1545341223" rel="stylesheet">
     
 
-    <script src="https://iani.github.io/compmus-class/js/jquery-2.x.min.js?1545243442"></script>
+    <script src="https://iani.github.io/compmus-class/js/jquery-2.x.min.js?1545341223"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -87,14 +87,14 @@
     <span data-search-clear=""><i class="fas fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="https://iani.github.io/compmus-class/js/lunr.min.js?1545243442"></script>
-<script type="text/javascript" src="https://iani.github.io/compmus-class/js/auto-complete.js?1545243442"></script>
+<script type="text/javascript" src="https://iani.github.io/compmus-class/js/lunr.min.js?1545341223"></script>
+<script type="text/javascript" src="https://iani.github.io/compmus-class/js/auto-complete.js?1545341223"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/iani.github.io\/compmus-class";
     
 </script>
-<script type="text/javascript" src="https://iani.github.io/compmus-class/js/search.js?1545243442"></script>
+<script type="text/javascript" src="https://iani.github.io/compmus-class/js/search.js?1545341223"></script>
 
     
   </div>
@@ -304,8 +304,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#αντικειμενοστραφής-προγραμματισμός-object-oriented-programming--oop">Αντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP)</a></li>
 <li><a href="#types-of-programming-styles--paradigms">Types of programming styles (Paradigms)</a></li>
+<li><a href="#object-oriented-programming--oop-αντικειμενοστραφής-προγραμματισμός">Object Oriented Programming (OOP, Αντικειμενοστραφής Προγραμματισμός)</a></li>
 <li><a href="#basic-concepts">Basic concepts</a></li>
 <li><a href="#some-deeper-fundamental-concepts">Some deeper fundamental concepts</a></li>
 <li><a href="#human-based-information-approach">Human based information approach</a></li>
@@ -360,8 +360,6 @@
 
 <p>Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα.  Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.</p>
 
-<h4 id="αντικειμενοστραφής-προγραμματισμός-object-oriented-programming--oop">Αντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP)</h4>
-
 <h4 id="types-of-programming-styles--paradigms">Types of programming styles (Paradigms)</h4>
 
 <p>See: <a href="https://www.geeksforgeeks.org/introduction-of-programming-paradigms/">https://www.geeksforgeeks.org/introduction-of-programming-paradigms/</a></p>
@@ -379,6 +377,42 @@
 <li>Object Oriented</li>
 <li>Functional</li>
 <li>Other (Subject oriented, aspect oriented, etc.)</li>
+</ul>
+
+<h4 id="object-oriented-programming--oop-αντικειμενοστραφής-προγραμματισμός">Object Oriented Programming (OOP, Αντικειμενοστραφής Προγραμματισμός)</h4>
+
+<ul>
+<li><p>&ldquo;Everything is an object&rdquo;.</p>
+
+<p>Examples of objects:</p>
+
+<pre><code class="language-javascript">1 // an integer
+1.0 // a floating point number (&quot;Float&quot;)
+\alpha // a Symbol
+'alpha' // another way to write a Symbol
+&quot;alpha&quot; // a String
+$a      // a Character
+[1, 2, 3] // an Array
+(1..3)    // Shortcut notation for the same Array
+\a -&gt; 1   // an Association
+(a: 1, b: 2.0) // an Event
+Synth(\default) // A Synth
+Server.default  // A Server
+Server          // The Server Class
+</code></pre></li>
+
+<li><p>Objects communicate by sending messages</p></li>
+
+<li><p>Variables and methods</p>
+
+<ul>
+<li>An object can store data in <em>variables</em>, and code its actions as <em>methods</em>.  Data is also called <em>state</em> and method content is called <em>behavior</em>.</li>
+<li>A variable is defined by its name (Names in computer languages are often called <a href="#identifier">Identifier</a>s.</li>
+</ul></li>
+
+<li><p>A <em>Class</em> defines the structure and behavior of an object</p>
+
+<p>The definition of an object type is called its <em>Class</em>.  An object created according to the definition of a Class is called an <em>instance</em> of that class.  A class specifies which variables each of its instance will have, and which methods all of its instances share.</p></li>
 </ul>
 
 <h4 id="basic-concepts">Basic concepts</h4>
@@ -644,20 +678,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://iani.github.io/compmus-class/js/clipboard.min.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/perfect-scrollbar.min.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/perfect-scrollbar.jquery.min.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/jquery.sticky.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/featherlight.min.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/html5shiv-printshiv.min.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/highlight.pack.js?1545243442"></script>
+    <script src="https://iani.github.io/compmus-class/js/clipboard.min.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/perfect-scrollbar.min.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/perfect-scrollbar.jquery.min.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/jquery.sticky.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/featherlight.min.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/html5shiv-printshiv.min.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/highlight.pack.js?1545341223"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://iani.github.io/compmus-class/js/modernizr.custom.71422.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/learn.js?1545243442"></script>
-    <script src="https://iani.github.io/compmus-class/js/hugo-learn.js?1545243442"></script>
+    <script src="https://iani.github.io/compmus-class/js/modernizr.custom.71422.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/learn.js?1545341223"></script>
+    <script src="https://iani.github.io/compmus-class/js/hugo-learn.js?1545341223"></script>
 
-    <link href="https://iani.github.io/compmus-class/mermaid/mermaid.css?1545243442" type="text/css" rel="stylesheet" />
-    <script src="https://iani.github.io/compmus-class/mermaid/mermaid.js?1545243442"></script>
+    <link href="https://iani.github.io/compmus-class/mermaid/mermaid.css?1545341223" type="text/css" rel="stylesheet" />
+    <script src="https://iani.github.io/compmus-class/mermaid/mermaid.js?1545341223"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

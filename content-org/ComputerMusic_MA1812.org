@@ -28,7 +28,6 @@
   :EXPORT_HUGO_WEIGHT: 1
   :END:
 
-
 ** Αντικείμενο και εφαρμογές
    :PROPERTIES:
    :EXPORT_HUGO_SECTION: intro
@@ -67,14 +66,9 @@
 
 Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα.  Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.
 
-**** Αντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP)
-     :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 5
-     :END:
-
 **** Types of programming styles (Paradigms)
      :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 6
+     :EXPORT_HUGO_WEIGHT: 5
      :END:
 
 See: https://www.geeksforgeeks.org/introduction-of-programming-paradigms/
@@ -90,265 +84,343 @@ Some of the types below can be classified under /imperative/ or /declarative/:
 - Functional
 - Other (Subject oriented, aspect oriented, etc.)
 
-**** Basic concepts
+**** Object Oriented Programming (OOP, Αντικειμενοστραφής Προγραμματισμός)
      :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 7
+     :EXPORT_HUGO_WEIGHT: 6
      :END:
-       
-***** Function
+
+*****  "Everything is an object".
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 7
+      :END:
+
+Examples of objects: 
+
+#+BEGIN_SRC javascript
+1 // an integer
+1.0 // a floating point number ("Float")
+\alpha // a Symbol
+'alpha' // another way to write a Symbol
+"alpha" // a String
+$a      // a Character
+[1, 2, 3] // an Array
+(1..3)    // Shortcut notation for the same Array
+\a -> 1   // an Association
+(a: 1, b: 2.0) // an Event
+Synth(\default) // A Synth
+Server.default  // A Server
+Server          // The Server Class
+#+END_SRC
+
+***** Objects communicate by sending messages
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 8
       :END:
 
-***** Arguments
+***** Variables and methods
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 9
       :END:
 
-***** Recursion
+ - An object can store data in /variables/, and code its actions as /methods/.  Data is also called /state/ and method content is called /behavior/.
+ - A variable is defined by its name (Names in computer languages are often called [[Identifier]]s.
+
+***** A /Class/ defines the structure and behavior of an object
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 10
       :END:
 
-***** Iteration
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 11
-      :END:
+The definition of an object type is called its /Class/.  An object created according to the definition of a Class is called an /instance/ of that class.  A class specifies which variables each of its instance will have, and which methods all of its instances share.
 
-***** Closure
+
+**** Basic concepts
+     :PROPERTIES:
+     :EXPORT_HUGO_WEIGHT: 11
+     :END:
+       
+***** Function
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 12
       :END:
 
-***** Function callback
+***** Arguments
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 13
       :END:
 
-***** Asynchronous programming
+***** Recursion
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 14
       :END:
 
-***** Scheduling, multitasking, threads
+***** Iteration
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 15
       :END:
 
-***** Namespace
+***** Closure
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 16
       :END:
 
-***** OOP concepts
+***** Function callback
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 17
       :END:
+
+***** Asynchronous programming
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 18
+      :END:
+
+***** Scheduling, multitasking, threads
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 19
+      :END:
+
+***** Namespace
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 20
+      :END:
+
+***** OOP concepts
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 21
+      :END:
 ****** Object
-       :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 18
-       :END:
-
-****** Method
-       :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 19
-       :END:
-
-****** Message
-       :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 20
-       :END:
-
-****** Class
-       :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 21
-       :END:
-
-****** Superclass, subclass, meta class
        :PROPERTIES:
        :EXPORT_HUGO_WEIGHT: 22
        :END:
 
-****** Inheritance
+****** Method
        :PROPERTIES:
        :EXPORT_HUGO_WEIGHT: 23
        :END:
 
-****** Polymorphism
+****** Message
        :PROPERTIES:
        :EXPORT_HUGO_WEIGHT: 24
        :END:
 
-****** Encapsulation
+****** Class
        :PROPERTIES:
        :EXPORT_HUGO_WEIGHT: 25
+       :END:
+
+****** Superclass, subclass, meta class
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 26
+       :END:
+
+****** Inheritance
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 27
+       :END:
+
+****** Polymorphism
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 28
+       :END:
+
+****** Encapsulation
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 29
        :END:
 
 
 
 ***** Introspection - Reflexive programming
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 26
+      :EXPORT_HUGO_WEIGHT: 30
       :END:
 
 ***** Identifier
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 27
-      :END:
-
-***** Type / Datastructure
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 28
-      :END:
-
-***** Variable
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 29
-      :END:
-
-***** Directive (?)
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 30
-      :END:
-
-***** Compiler
-      :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 31
       :END:
 
-***** Interpreter
+
+
+***** Type / Datastructure
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 32
       :END:
 
-***** Read-Eval-Print-Loop (REPL)
+***** Variable
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 33
       :END:
 
-***** Sound related
+***** Directive (?)
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 34
       :END:
 
+***** Compiler
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 35
+      :END:
+
+***** Interpreter
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 36
+      :END:
+
+***** Read-Eval-Print-Loop (REPL)
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 37
+      :END:
+
+***** Sound related
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 38
+      :END:
+
 ****** Signal
-       :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 35
-       :END:
-
-******* Audio and Control rate signals
-        :PROPERTIES:
-        :EXPORT_HUGO_WEIGHT: 36
-        :END:
-
-****** Buffer
-       :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 37
-       :END:
-
-****** Bus
-       :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 38
-       :END:
-
-****** Unit generator
        :PROPERTIES:
        :EXPORT_HUGO_WEIGHT: 39
        :END:
 
-****** Synth Process
+******* Audio and Control rate signals
+        :PROPERTIES:
+        :EXPORT_HUGO_WEIGHT: 40
+        :END:
+
+****** Buffer
        :PROPERTIES:
-       :EXPORT_HUGO_WEIGHT: 40
+       :EXPORT_HUGO_WEIGHT: 41
        :END:
 
-***** Music related / advanced
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 41
-      :END:
-
-****** Stream and Pattern
+****** Bus
        :PROPERTIES:
        :EXPORT_HUGO_WEIGHT: 42
        :END:
 
+****** Unit generator
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 43
+       :END:
+
+****** Synth Process
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 44
+       :END:
+
+***** Music related / advanced
+      :PROPERTIES:
+      :EXPORT_HUGO_WEIGHT: 45
+      :END:
+
+****** Stream and Pattern
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 46
+       :END:
+
 ***** GUI
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 43
+      :EXPORT_HUGO_WEIGHT: 47
       :END:
 
 ***** Types of Intrerfaces
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 44
+      :EXPORT_HUGO_WEIGHT: 48
       :END:
 
 **** Some deeper fundamental concepts
      :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 45
+     :EXPORT_HUGO_WEIGHT: 49
      :END:
 
 **** Human based information approach
      :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 46
+     :EXPORT_HUGO_WEIGHT: 50
      :END:
 ***** Signal
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 47
+      :EXPORT_HUGO_WEIGHT: 51
       :END:
 ***** Sign
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 48
+      :EXPORT_HUGO_WEIGHT: 52
       :END:
 ***** Signifier / Signified
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 49
+      :EXPORT_HUGO_WEIGHT: 53
       :END:
 ***** Linguistics / Cognitive Science
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 50
+      :EXPORT_HUGO_WEIGHT: 54
       :END:
 ***** Semantics / Semotics
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 51
+      :EXPORT_HUGO_WEIGHT: 55
       :END:
 ***** Information ???? 
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 52
+      :EXPORT_HUGO_WEIGHT: 56
       :END:
 ***** Language
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 53
+      :EXPORT_HUGO_WEIGHT: 57
       :END:
 **** Non-Human based information approach
      :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 54
+     :EXPORT_HUGO_WEIGHT: 58
      :END:
 ***** Data based
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 55
+      :EXPORT_HUGO_WEIGHT: 59
       :END:
 ***** Data science
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 56
+      :EXPORT_HUGO_WEIGHT: 60
       :END:
 ***** Big data
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 57
+      :EXPORT_HUGO_WEIGHT: 61
       :END:
 ***** Statistics
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 58
+      :EXPORT_HUGO_WEIGHT: 62
       :END:
 ***** Bayesian reasoning
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 59
+      :EXPORT_HUGO_WEIGHT: 63
       :END:
 ** Ιστογραφία
    :PROPERTIES:
    :EXPORT_FILE_NAME: links
    :EXPORT_HUGO_SECTION: intro
-   :EXPORT_HUGO_WEIGHT: 60
+   :EXPORT_HUGO_WEIGHT: 64
    :END:
 
 - The Royal Institution, Youtube Channel [[https://www.youtube.com/user/TheRoyalInstitution/videos?app=desktop]]
 
+* Internal stuff
+  :PROPERTIES:
+  :EXPORT_HUGO_WEIGHT: 65
+  :END:
+** List of Students + Emails
+   :PROPERTIES:
+   :DATE:     <2018-12-17 Mon 19:21>
+   :EXPORT_HUGO_WEIGHT: 66
+   :END:
 
+ |                         | pisumvanitatum@gmail.com     |                      |
+ |                         | walkmansyndromethe@gmail.com |                      |
+ | Andreas Apergis         | conker22904@gmail.com        | EAP Πληροφορική      |
+ | Athanasios Epiideios    | atha.epitideios@gmail.com    | ΤΕΙ Ιονιων           |
+ | Dimitrios Dandolos      | ddp.dandol@gmail.com,        | ΤΕΙ Ιονιων           |
+ | Ioannis Tsopanoglou     | yannistsop@gmail.com         | ΤΕΙ Αρτας            |
+ | Iosif Klossopoulos      | Josef.klooss@gmail.com       | Παντειο              |
+ | Maria-Louiza Theologiti | maryloutheol@outlook.com.gr  | Χημεία               |
+ | Panagiotis Tsagkaroulis | Avpanos.tsag@gmail.com       | AVARTS               |
+ | Petros Kobilakos        | kobilakos@yahoo.com          | Πάντειο              |
+ | Vasilis Ioakeimidis     | vasilisioakeimidis@gmail.com | TEET Παν. Μακεδονίας |
+** URL of website on github
+   :PROPERTIES:
+   :DATE:     <2018-12-20 Thu 21:31>
+   :EXPORT_HUGO_WEIGHT: 67
+   :END:
+
+https://iani.github.io/compmus-class

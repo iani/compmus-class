@@ -1,15 +1,12 @@
 ---
 title: "Εισαγωγή: Θεωρητικές Έννοιες"
 author: ["IOANNIS ZANNOS"]
-lastmod: 2018-12-19T20:16:25+02:00
+lastmod: 2018-12-20T23:26:54+02:00
 draft: false
 weight: 4
 ---
 
 Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα.  Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.
-
-
-## Αντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP) {#αντικειμενοστραφής-προγραμματισμός-object-oriented-programming--oop}
 
 
 ## Types of programming styles (Paradigms) {#types-of-programming-styles--paradigms}
@@ -26,6 +23,44 @@ Some of the types below can be classified under _imperative_ or _declarative_:
 -   Object Oriented
 -   Functional
 -   Other (Subject oriented, aspect oriented, etc.)
+
+
+## Object Oriented Programming (OOP, Αντικειμενοστραφής Προγραμματισμός) {#object-oriented-programming--oop-αντικειμενοστραφής-προγραμματισμός}
+
+
+### "Everything is an object". {#everything-is-an-object-dot}
+
+Examples of objects:
+
+```javascript
+1 // an integer
+1.0 // a floating point number ("Float")
+\alpha // a Symbol
+'alpha' // another way to write a Symbol
+"alpha" // a String
+$a      // a Character
+[1, 2, 3] // an Array
+(1..3)    // Shortcut notation for the same Array
+\a -> 1   // an Association
+(a: 1, b: 2.0) // an Event
+Synth(\default) // A Synth
+Server.default  // A Server
+Server          // The Server Class
+```
+
+
+### Objects communicate by sending messages {#objects-communicate-by-sending-messages}
+
+
+### Variables and methods {#variables-and-methods}
+
+-   An object can store data in _variables_, and code its actions as _methods_.  Data is also called _state_ and method content is called _behavior_.
+-   A variable is defined by its name (Names in computer languages are often called [Identifier](#identifier)s.
+
+
+### A _Class_ defines the structure and behavior of an object {#a-class-defines-the-structure-and-behavior-of-an-object}
+
+The definition of an object type is called its _Class_.  An object created according to the definition of a Class is called an _instance_ of that class.  A class specifies which variables each of its instance will have, and which methods all of its instances share.
 
 
 ## Basic concepts {#basic-concepts}

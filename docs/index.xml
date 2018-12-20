@@ -6,7 +6,7 @@
     <description>Recent content in Αρχική on Μουσική Πληροφορική</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 19 Dec 2018 20:16:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 23:26:52 +0200</lastBuildDate>
     
 	<atom:link href="https://iani.github.io/compmus-class/index.xml" rel="self" type="application/rss+xml" />
     
@@ -38,9 +38,9 @@
       
       <guid>https://iani.github.io/compmus-class/intro/content/</guid>
       <description>Εδώ είναι μια λίστα των εννοιών που σημειώθηκαν στο 3ο μάθημα. Σχόλια για τις έννοιες αυτές θα συμπληρωθούν διαδοχικά κατά την εξέλιξη του εξαμήνου.
-Αντικειμενοστραφής Προγραμματισμός: Object Oriented Programming (OOP) Types of programming styles (Paradigms) See: https://www.geeksforgeeks.org/introduction-of-programming-paradigms/
+Types of programming styles (Paradigms) See: https://www.geeksforgeeks.org/introduction-of-programming-paradigms/
  Imperative Declarative  Some of the types below can be classified under imperative or declarative:
- Procedural Logic Object Oriented Functional Other (Subject oriented, aspect oriented, etc.)  Basic concepts Function Arguments Recursion Iteration Closure Function callback Asynchronous programming Scheduling, multitasking, threads Namespace OOP concepts Object Method Message Class Superclass, subclass, meta class Inheritance Polymorphism Encapsulation Introspection - Reflexive programming Identifier Type / Datastructure Variable Directive (?</description>
+ Procedural Logic Object Oriented Functional Other (Subject oriented, aspect oriented, etc.)  Object Oriented Programming (OOP, Αντικειμενοστραφής Προγραμματισμός) &amp;ldquo;Everything is an object&amp;rdquo;.</description>
     </item>
     
     <item>

@@ -1,7 +1,7 @@
 ---
 title: "Εργαλεία"
 author: ["IOANNIS ZANNOS"]
-lastmod: 2018-12-19T20:16:24+02:00
+lastmod: 2018-12-20T23:26:53+02:00
 draft: false
 weight: 3
 ---
