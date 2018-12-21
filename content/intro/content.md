@@ -1,7 +1,7 @@
 ---
 title: "Εισαγωγή: Θεωρητικές Έννοιες"
 author: ["IOANNIS ZANNOS"]
-lastmod: 2018-12-20T23:26:54+02:00
+lastmod: 2018-12-21T05:43:52+02:00
 draft: false
 weight: 4
 ---
@@ -33,16 +33,16 @@ Some of the types below can be classified under _imperative_ or _declarative_:
 Examples of objects:
 
 ```javascript
-1 // an integer
-1.0 // a floating point number ("Float")
-\alpha // a Symbol
-'alpha' // another way to write a Symbol
-"alpha" // a String
-$a      // a Character
-[1, 2, 3] // an Array
-(1..3)    // Shortcut notation for the same Array
-\a -> 1   // an Association
-(a: 1, b: 2.0) // an Event
+1               // an integer
+1.0             // a floating point number ("Float")
+\alpha          // a Symbol
+'alpha'         // another way to write the same Symbol as above
+"alpha"         // a String
+$a              // a Character
+[1, 2, 3]       // an Array
+(1..3)          // Shortcut notation for the same Array as above
+\a -> 1         // an Association
+(a: 1, b: 2.0)  // an Event
 Synth(\default) // A Synth
 Server.default  // A Server
 Server          // The Server Class
@@ -179,43 +179,40 @@ The definition of an object type is called its _Class_.  An object created accor
 ## Some deeper fundamental concepts {#some-deeper-fundamental-concepts}
 
 
-## Human based information approach {#human-based-information-approach}
+### Human based approach to the concept of information {#human-based-approach-to-the-concept-of-information}
 
 
-### Signal {#signal}
+#### Signal {#signal}
 
 
-### Sign {#sign}
+#### Sign {#sign}
 
 
-### Signifier / Signified {#signifier-signified}
+#### Signifier / Signified {#signifier-signified}
 
 
-### Linguistics / Cognitive Science {#linguistics-cognitive-science}
+#### Linguistics / Cognitive Science {#linguistics-cognitive-science}
 
 
-### Semantics / Semotics {#semantics-semotics}
+#### Semantics / Semotics {#semantics-semotics}
 
 
-### Information ???? {#information}
+#### Information ???? {#information}
 
 
-### Language {#language}
+#### Language {#language}
 
 
-## Non-Human based information approach {#non-human-based-information-approach}
+### Non-Human based approach to the concept of information {#non-human-based-approach-to-the-concept-of-information}
 
 
-### Data based {#data-based}
+#### Data science {#data-science}
 
 
-### Data science {#data-science}
+#### Big data {#big-data}
 
 
-### Big data {#big-data}
+#### Statistics {#statistics}
 
 
-### Statistics {#statistics}
-
-
-### Bayesian reasoning {#bayesian-reasoning}
+#### Bayesian reasoning {#bayesian-reasoning}

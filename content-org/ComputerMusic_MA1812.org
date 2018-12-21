@@ -97,16 +97,16 @@ Some of the types below can be classified under /imperative/ or /declarative/:
 Examples of objects: 
 
 #+BEGIN_SRC javascript
-1 // an integer
-1.0 // a floating point number ("Float")
-\alpha // a Symbol
-'alpha' // another way to write a Symbol
-"alpha" // a String
-$a      // a Character
-[1, 2, 3] // an Array
-(1..3)    // Shortcut notation for the same Array
-\a -> 1   // an Association
-(a: 1, b: 2.0) // an Event
+1               // an integer
+1.0             // a floating point number ("Float")
+\alpha          // a Symbol
+'alpha'         // another way to write the same Symbol as above
+"alpha"         // a String
+$a              // a Character
+[1, 2, 3]       // an Array
+(1..3)          // Shortcut notation for the same Array as above
+\a -> 1         // an Association
+(a: 1, b: 2.0)  // an Event
 Synth(\default) // A Synth
 Server.default  // A Server
 Server          // The Server Class
@@ -239,8 +239,6 @@ The definition of an object type is called its /Class/.  An object created accor
       :EXPORT_HUGO_WEIGHT: 31
       :END:
 
-
-
 ***** Type / Datastructure
       :PROPERTIES:
       :EXPORT_HUGO_WEIGHT: 32
@@ -331,79 +329,75 @@ The definition of an object type is called its /Class/.  An object created accor
      :EXPORT_HUGO_WEIGHT: 49
      :END:
 
-**** Human based information approach
-     :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 50
-     :END:
-***** Signal
+***** Human based approach to the concept of information
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 51
+      :EXPORT_HUGO_WEIGHT: 50
       :END:
-***** Sign
+****** Signal
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 51
+       :END:
+****** Sign
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 52
+       :END:
+****** Signifier / Signified
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 53
+       :END:
+****** Linguistics / Cognitive Science
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 54
+       :END:
+****** Semantics / Semotics
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 55
+       :END:
+****** Information ???? 
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 56
+       :END:
+****** Language
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 57
+       :END:
+***** Non-Human based approach to the concept of information
       :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 52
+      :EXPORT_HUGO_WEIGHT: 58
       :END:
-***** Signifier / Signified
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 53
-      :END:
-***** Linguistics / Cognitive Science
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 54
-      :END:
-***** Semantics / Semotics
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 55
-      :END:
-***** Information ???? 
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 56
-      :END:
-***** Language
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 57
-      :END:
-**** Non-Human based information approach
-     :PROPERTIES:
-     :EXPORT_HUGO_WEIGHT: 58
-     :END:
-***** Data based
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 59
-      :END:
-***** Data science
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 60
-      :END:
-***** Big data
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 61
-      :END:
-***** Statistics
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 62
-      :END:
-***** Bayesian reasoning
-      :PROPERTIES:
-      :EXPORT_HUGO_WEIGHT: 63
-      :END:
+****** Data science
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 59
+       :END:
+****** Big data
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 60
+       :END:
+****** Statistics
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 61
+       :END:
+****** Bayesian reasoning
+       :PROPERTIES:
+       :EXPORT_HUGO_WEIGHT: 62
+       :END:
 ** Ιστογραφία
    :PROPERTIES:
    :EXPORT_FILE_NAME: links
    :EXPORT_HUGO_SECTION: intro
-   :EXPORT_HUGO_WEIGHT: 64
+   :EXPORT_HUGO_WEIGHT: 63
    :END:
 
 - The Royal Institution, Youtube Channel [[https://www.youtube.com/user/TheRoyalInstitution/videos?app=desktop]]
 
 * Internal stuff
   :PROPERTIES:
-  :EXPORT_HUGO_WEIGHT: 65
+  :EXPORT_HUGO_WEIGHT: 64
   :END:
 ** List of Students + Emails
    :PROPERTIES:
    :DATE:     <2018-12-17 Mon 19:21>
-   :EXPORT_HUGO_WEIGHT: 66
+   :EXPORT_HUGO_WEIGHT: 65
    :END:
 
  |                         | pisumvanitatum@gmail.com     |                      |
@@ -420,7 +414,7 @@ The definition of an object type is called its /Class/.  An object created accor
 ** URL of website on github
    :PROPERTIES:
    :DATE:     <2018-12-20 Thu 21:31>
-   :EXPORT_HUGO_WEIGHT: 67
+   :EXPORT_HUGO_WEIGHT: 66
    :END:
 
 https://iani.github.io/compmus-class

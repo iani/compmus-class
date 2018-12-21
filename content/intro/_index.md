@@ -1,7 +1,7 @@
 ---
 title: "Εισαγωγή"
 author: ["IOANNIS ZANNOS"]
-lastmod: 2018-12-20T23:26:52+02:00
+lastmod: 2018-12-21T05:43:51+02:00
 draft: false
 weight: 1
 ---
@@ -55,16 +55,16 @@ Some of the types below can be classified under _imperative_ or _declarative_:
     Examples of objects:
 
     ```javascript
-    1 // an integer
-    1.0 // a floating point number ("Float")
-    \alpha // a Symbol
-    'alpha' // another way to write a Symbol
-    "alpha" // a String
-    $a      // a Character
-    [1, 2, 3] // an Array
-    (1..3)    // Shortcut notation for the same Array
-    \a -> 1   // an Association
-    (a: 1, b: 2.0) // an Event
+    1               // an integer
+    1.0             // a floating point number ("Float")
+    \alpha          // a Symbol
+    'alpha'         // another way to write the same Symbol as above
+    "alpha"         // a String
+    $a              // a Character
+    [1, 2, 3]       // an Array
+    (1..3)          // Shortcut notation for the same Array as above
+    \a -> 1         // an Association
+    (a: 1, b: 2.0)  // an Event
     Synth(\default) // A Synth
     Server.default  // A Server
     Server          // The Server Class
@@ -161,35 +161,31 @@ Some of the types below can be classified under _imperative_ or _declarative_:
 
 #### Some deeper fundamental concepts {#some-deeper-fundamental-concepts}
 
+-    Human based approach to the concept of information
 
-#### Human based information approach {#human-based-information-approach}
+    -    Signal
 
--    Signal
+    -    Sign
 
--    Sign
+    -    Signifier / Signified
 
--    Signifier / Signified
+    -    Linguistics / Cognitive Science
 
--    Linguistics / Cognitive Science
+    -    Semantics / Semotics
 
--    Semantics / Semotics
+    -    Information ????
 
--    Information ????
+    -    Language
 
--    Language
+-    Non-Human based approach to the concept of information
 
+    -    Data science
 
-#### Non-Human based information approach {#non-human-based-information-approach}
+    -    Big data
 
--    Data based
+    -    Statistics
 
--    Data science
-
--    Big data
-
--    Statistics
-
--    Bayesian reasoning
+    -    Bayesian reasoning
 
 
 ## Ιστογραφία {#ιστογραφία}
